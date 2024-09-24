@@ -1,0 +1,120 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.area-principal {
+    height: 40.2rem;
+    width: 80rem;
+    background-image: url(../imagem/bg-repeat.jpg);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Seção Pergunta e Orientações*/
+.area-principal .area-duvidas {
+    width: 30rem;
+    height: 11.1rem;
+    
+}
+
+.area-duvidas .titulo {
+    font-size: 2rem;
+    line-height: 2.3rem;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 1.1rem;
+    text-transform: uppercase;
+}
+
+.area-duvidas .texto-explicativo{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #ffffff;
+}
+
+/*Área Formulário*/
+.area-formulario{
+    width: 34rem;
+    height: 37.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.area-formulario .inputs{
+    width: 29.8rem;
+    height: 3.51rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding-left: 0.99rem;
+}
+
+.area-formulario .inputs::placeholder{
+    color: #A8A8A8;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.758rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.area-formulario .inputs.area-texto {
+    height: 10rem;
+    padding-top: 0.8rem;
+    resize: none;
+    outline: none;
+}
+
+.area-formulario .legenda {
+    font-size: 1.5rem;
+    line-height: 1.758rem;
+    font-weight: 400;
+    color: #000000;
+
+    margin: -7px 150px 2px 0;
+}
+
+.area-formulario .botao-enviar {
+    width: 29.8rem;
+    height: 4.113rem;
+
+    border: none;
+    border-radius: 5px;
+    background-color: #3CCC87;
+
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 1.758rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.inputs.erro {
+    border: 1px solid #F52E2E;
+}
+
+.inputs.ok {
+    border: 1px solid #00C22B;
+}
+
+.mostrar{
+    display: block;
+    color: #F52E2E;
+    font-size: 0.8rem;
+    line-height: 0.938rem;
+    font-weight: 400;
+    margin-left: -22.5rem;
+    margin-top: -0.9rem;
+}
+
+.esconder{
+    display: none;
+}
